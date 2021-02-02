@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./static/img/law-firm-logo.jpg" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/7dfb9f727c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+
+    <title>Hukuk Bürosu</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="sidenav-trigger right" data-target="sidemenu">Menü</a>
+                <a href="#" class="brand-logo"><img src="./static/img/law-firm-logo.jpg" class="logo"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#" class="active">Ana Sayfa</a></li>
+                    <li><a href="#hakkimizda">Hakkımızda</a></li>
+                    <li><a href="#calisma-alanlarimiz">Hizmetlerimiz</a></li>
+                    <li><a href="#takimimiz">Takımımız</a></li>
+                    <li><a href="#">Kariyer</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                    <li><a href="#sorucevap">Soru & Cevap</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul id="sidemenu" class="sidenav show-on-small-only">
+            <li><a href="">Ana Sayfa</a></li>
+            <li><a href="">Hakkımızda</a></li>
+            <li><a href="">Hizmetlerimiz</a></li>
+            <li><a href="">Takımımız</a></li>
+            <li><a href="">Kariyer</a></li>
+            <li><a href="">İletişim</a></li>
+            <li><a href="">Soru & Cevap</a></li>
+        </ul>
+
+        <div class="carousel carousel-slider">
+            <div class="parallax-filter"></div>
+
+            <div class="carousel-item" href="#one!">
+                <img src="./static/img/slider-header-1.jpg">
+                <h1 class="parallax-text show-text">İzmir'in Önde Gelen Hukuk Firmalarındanız</h1>
+            </div>
+            <div class="carousel-item" href="#two!">
+                <img src="./static/img/slider-header-2.jpg">
+                <h1 class="parallax-text">İzmir'in Önde Gelen Hukuk Firmalarındanız</h1>
+            </div>
+            <div class="carousel-item" href="#three!">
+                <img src="./static/img/slider-header-3.jpg">
+                <h1 class="parallax-text">İzmir'in Önde Gelen Hukuk Firmalarındanız</h1>
+            </div>
+            
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="stats center hide-on-small-only">
+            <div class="row z-depth-3">
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <div class="stat-text"><h4>+<span id="vakasayisi"></span></h4><h5>Vaka</h5></div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <div class="stat-text"><h4>%<span id="basariorani"></span></h4><h5>Başarı Oranı</h5></div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <div class="stat-text"><h4><span id="musterisayisi"></span></h4><h5>Mutlu Müşteri</h5></div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <div class="stat-text"><h4><span id="deneyimyili"></span></h4><h5>Yıllık Deneyim</h5></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="hakkimizda">
+            <div class="container">
+                <h1 style="font-size: 6rem; margin-top: 0;" id="about-animate">Trust & Co<br>Hukuk Bürosu</h1>
+                <div style="margin-bottom: 3rem;">
+                    <h5>Lorem ipsum dolor sit amet.</h5> <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quis quasi numquam voluptas at modi minus eum, iusto et eos alias, aspernatur tempora quibusdam laborum exercitationem. Reiciendis, aperiam eius voluptatum itaque cupiditate possimus, perferendis dolores laborum repudiandae provident officiis quasi?</p>
+                    <br> <span>- Lorem, ipsum.</span>
+                </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax">
+                    <div class="parallax-filter"></div>
+                    <img src="./static/img/parallax-2.jpg" alt="">
+                </div>
+                <h2>Neden Tercih Ediliyoruz?</h2>
+                <hr style="width: 60%; margin-left: auto; margin-right: auto;">
+                <div class="container" style="width: 75%;">
+                    <div class="row" id="client-comments">
+                        <div class="col s12 m4">
+                            <div class="card-panel">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172" class="comment-icon" style="opacity: .6; fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#920f0f"><path d="M28.66667,22.93333c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v45.86667c0,6.33533 5.13133,11.46667 11.46667,11.46667h23.16849c0.14294,10.24102 -0.85884,32.18473 -10.7724,48.46458c0.00361,0.00056 0.00758,-0.00055 0.0112,0c-1.50994,2.32815 -1.13663,5.40334 0.88649,7.3026c2.02312,1.89926 5.11574,2.07779 7.34398,0.42396c0,0 25.22891,-19.243 25.22891,-56.19114v-57.33333c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667zM108.93333,22.93333c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v45.86667c0,6.33533 5.13133,11.46667 11.46667,11.46667h23.16849c0.14294,10.24102 -0.85885,32.18473 -10.7724,48.46458h0.0112c-1.50995,2.32815 -1.13664,5.40335 0.88648,7.3026c2.02312,1.89926 5.11575,2.07779 7.34399,0.42396c0,0 25.22891,-19.243 25.22891,-56.19114v-57.33333c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667z"></path></g></g></svg>
+                                <div class="comment-content">
+                                    <img src="./static/img/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.webp" alt="">
+                                    <p><small>Fatih Asya</small></p>
+                                    <p><small>Co Founder of Random Firm</small></p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus fuga odit nulla provident amet nemo excepturi porro eveniet dolor labore eaque assumenda quas in odio laboriosam quos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card-panel">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172" class="comment-icon" style="opacity: .6; fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#920f0f"><path d="M28.66667,22.93333c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v45.86667c0,6.33533 5.13133,11.46667 11.46667,11.46667h23.16849c0.14294,10.24102 -0.85884,32.18473 -10.7724,48.46458c0.00361,0.00056 0.00758,-0.00055 0.0112,0c-1.50994,2.32815 -1.13663,5.40334 0.88649,7.3026c2.02312,1.89926 5.11574,2.07779 7.34398,0.42396c0,0 25.22891,-19.243 25.22891,-56.19114v-57.33333c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667zM108.93333,22.93333c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v45.86667c0,6.33533 5.13133,11.46667 11.46667,11.46667h23.16849c0.14294,10.24102 -0.85885,32.18473 -10.7724,48.46458h0.0112c-1.50995,2.32815 -1.13664,5.40335 0.88648,7.3026c2.02312,1.89926 5.11575,2.07779 7.34399,0.42396c0,0 25.22891,-19.243 25.22891,-56.19114v-57.33333c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667z"></path></g></g></svg>
+                                <div class="comment-content">
+                                    <img src="./static/img/indir-women-photo.jpg" alt="">
+                                    <p><small>Açelya Zordoğan</small></p>
+                                    <p><small>Co Founder of Random Firm</small></p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus fuga odit nulla provident amet nemo excepturi porro eveniet dolor labore eaque assumenda quas in odio laboriosam quos, quibusdam ad enim pariatur earum. Velit ea rem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card-panel">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172" class="comment-icon" style="opacity: .6; fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#920f0f"><path d="M28.66667,22.93333c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v45.86667c0,6.33533 5.13133,11.46667 11.46667,11.46667h23.16849c0.14294,10.24102 -0.85884,32.18473 -10.7724,48.46458c0.00361,0.00056 0.00758,-0.00055 0.0112,0c-1.50994,2.32815 -1.13663,5.40334 0.88649,7.3026c2.02312,1.89926 5.11574,2.07779 7.34398,0.42396c0,0 25.22891,-19.243 25.22891,-56.19114v-57.33333c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667zM108.93333,22.93333c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v45.86667c0,6.33533 5.13133,11.46667 11.46667,11.46667h23.16849c0.14294,10.24102 -0.85885,32.18473 -10.7724,48.46458h0.0112c-1.50995,2.32815 -1.13664,5.40335 0.88648,7.3026c2.02312,1.89926 5.11575,2.07779 7.34399,0.42396c0,0 25.22891,-19.243 25.22891,-56.19114v-57.33333c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667z"></path></g></g></svg>
+                                <div class="comment-content">
+                                    <img src="./static/img/50-Long-Haircuts-Hairstyle-Tips-for-Men-2.jpg" alt="">
+                                    <p><small>Kerem Lirik</small></p>
+                                    <p><small>Co Founder of Random Firm</small></p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus fuga odit nulla provident amet nemo excepturi porro eveniet dolor labore eaque assumenda quas in odio laboriosam quos, quibusdam ad enim pariatur earum. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Çalışma Alanlarımız</h2>
+            </div>
+        </section>
+
+        <section id="calisma-alanlarimiz">
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="card-panel" id="first-card">
+                        <h5>Ayrıntılı İncele</h5>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <img src="./static/img/icon-laborers.svg" alt="" style="width: 35px; height: 35px;">
+                        <h4>İş Hukuku</h4>
+                        <p style="line-height: 1.4rem; opacity: .7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, veniam quibusdam eaque deleniti non cum?</p>
+                        <button class="btn">Detaylar</button>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <img src="./static/img/icon-medical-symbol.svg" alt="" style="width: 40px; height: 40px;">
+                        <h4>Sağlık Hukuku</h4>
+                        <p style="line-height: 1.4rem; opacity: .7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, veniam quibusdam eaque deleniti non cum?</p>
+                        <button class="btn">Detaylar</button>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <img src="./static/img/icon-law-1.svg" alt="" style="width: 50px; height: 50px;">
+                        <h4>Ceza Hukuku</h4>
+                        <p style="line-height: 1.4rem; opacity: .7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, veniam quibusdam eaque deleniti non cum?</p>
+                        <button class="btn">Detaylar</button>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="fas">
+                <li>Bilişim Hukuku Davaları</li>
+                <li>Ceza Davaları</li>
+                <li>İdari Davalar</li>
+                <li>Marka Patent Hukuku</li>
+            </ul>
+            <ul class="fas">
+                <li>İcra-İflas Hukukuna İlişkin Davalar</li>
+                <li>Aile Hukuku Davaları</li>
+                <li>Mülkiyet Kanununa İlişkin Davalar</li>
+                <li>Medeni Hukuka İlişkin Davalar</li>
+            </ul>
+            <ul class="fas">
+                <li>İş Hukukuna İlişkin Davalar</li>
+                <li>Kamulaştırma Davaları</li>
+                <li>Gayrimenkule İlişkin Davalar</li>
+                <li>Ticaret Hukukuna İlişkin Davalar</li>
+            </ul>
+        </section>
+
+        <section id="takimimiz">
+            <div class="container">
+                <h2>Takımımız</h2><hr>
+
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h5>Felsefemiz</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a dolore veniam libero soluta nobis repudiandae, rerum in ex at enim! Minima sapiente, fuga asperiores vitae nisi adipisci ullam alias dicta odit eos aliquam magnam nam harum quos quia. Harum aperiam beatae inventore labore unde?</p>
+                    </div>
+                    <div class="col s12 m6">
+                        <h5>Prensibimiz</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a dolore veniam libero soluta nobis repudiandae, rerum in ex at enim! Minima sapiente, fuga asperiores vitae nisi adipisci ullam alias dicta odit eos aliquam magnam nam harum quos quia. Harum aperiam beatae inventore labore unde?</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <div class="parallax-filter"></div>
+                                <img src="./static/img/attorney-1.jpg" alt="">
+                                <h5 class="card-title">Av. Harun Işık</h5>
+                            </div>
+                            <div class="card-content">
+                                <h5>Kıdemli Avukat</h5>
+                                <p><a href="">Hukuk Geçmişi</a></p>
+                                <a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <div class="parallax-filter"></div>
+                                <img src="./static/img/attorney-2.jpg" alt="">
+                                <h5 class="card-title">Av. Pelin Aydın</h5>
+                            </div>
+                            <div class="card-content">
+                                <h5>Kıdemli Avukat</h5>
+                                <p><a href="">Hukuk Geçmişi</a></p>
+                                <a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <div class="parallax-filter"></div>
+                                <img src="./static/img/attorney-3.jpg" alt="">
+                                <h5 class="card-title">Av. Hilal Akkuş</h5>
+                            </div>
+                            <div class="card-content">
+                                <h5>Yönetici Ortak</h5>
+                                <p><a href="">Hukuk Geçmişi</a></p>
+                                <a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <div class="parallax-filter"></div>
+                                <img src="./static/img/attorney-4.jpg" alt="">
+                                <h5 class="card-title">Av. Cem Aslaner</h5>
+                            </div>
+                            <div class="card-content">
+                                <h5>Kurucu Ortak</h5>
+                                <p><a href="">Hukuk Geçmişi</a></p>
+                                <a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn">Tüm Çalışanlarımız</button>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog Paylaşımları</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/img/blog-dirt.jpeg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span>Yazan: <a href="">Ahmet Altuğ</a> | 24 Aralık 2020</span>
+                                <h5>Girişim Sermayesi Yatırım Fonları ve Gayrimenkul Yatırım Fonlarından Elde Edilen Gelirlerde Gerçek Kişi Yatırımcılar İçin Vergisel Anlamda Fırsat Aralığı Doğdu!</h5>
+                                <p>Girişim sermayesi yatırım fonları ile gayrimenkul yatırım fonlarındaki gerçek kişi yatırımcılar, bu fonlardan elde ettikleri gelirler üzerinden %10 oranında vergilendirilmekteydi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/img/blog-building.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span>Yazan: <a href="">Serap Demirez</a> | 21 Aralık 2020</span>
+                                <h5>Hindistan’da Kamu İhale Sistemi ve Türk Yatırımcılar İçin Fırsatlar</h5>
+                                <p>Dünyada en hızlı büyüyen ekonomilerden birine sahip olan Hindistan, halen keşfedilmemiş önemli bir potansiyele sahiptir. Özellikle son yıllarda yabancı yatırımcılar Hindistan pazarı üzerinde, Hindistan’ın sağladığı geniş erişim imkânı sayesinde ciddi avantajlar elde etmektedirler.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/img/blog-mail.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span>Yazan: <a href="">Ahmet Altuğ</a> | 17 Aralık 2020</span>
+                                <h5>Anayasa Mahkemesi Şirket E-Postalarının Okunmasını Hak İhlali Olarak Kabul Etti!</h5>
+                                <p>Yargıtay 9. Hukuk Dairesi’nin 2009/447 esas numaralı ve 2010/37516 karar numaralı, 13.12.2010 tarihli emsal kararında işverenin kendisine ait bilgisayar ve e-posta adresleri ile bu adreslere gelen e-postaları her zaman denetleme yetkisinin bulunduğu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/img/blog-telekom.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span>Yazan: <a href="">Murat Mehmet Özbek</a> | 21 Kasım 2020</span>
+                                <h5>İleti Yönetim Sistemine Kayıt Süresi</h5>
+                                <p>6563 Sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun kapsamındaki hizmet sağlayıcıların ticari elektronik ileti gönderebilmeleri için İleti Yönetim Sistemi’ne 1 Aralık 2020 tarihine kadar kaydolmaları gerekmektedir.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/img/blog-international.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span>Yazan: <a href="">Pelin Peri</a> | 6 Kasım 2020</span>
+                                <h5>10 Soruda Uluslararası Yaptırımların Türkiye’deki Şirketlere ve Türk Yatırımcılara Etkisi</h5>
+                                <p>Uluslararası yaptırımlar özellikle ABD başta olmak üzere Avrupa Birliği, Kanada ve Avusturalya tarafından s ıklıkla kullanılmaktadır.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/img/blog-banka.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span>Yazan: <a href="">Bihter Açıkgöz</a> | 1 Kasım 2020</span>
+                                <h5>Bankalarca Kullanılacak Uzaktan Kimlik Tespiti Yöntemlerine İlişkin Tebliğ Taslağı’nın Getirdiği Yenilikler</h5>
+                                <p>Günümüz dünyasında teknolojinin sürekli bir değişim ve gelişim halinde oluşu, hayat kolaylaştıran birtakım uygulamalara öncülük etmektedir. Eskiden bilfiil ve bedenen yapılması gereken pek çok uygulama ve hukuki işlem, bugün teknolojik gelişmeler sayesinde mesafeli şekilde de yapılabilmeye başlanmıştır.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button href="" class="btn">Tüm Blog Paylaşımları</button>
+            </div>
+        </section>
+
+        <section id="iletisim">
+            <h2>Size Nasıl Yardımcı Olabiliriz?</h2>
+            <div class="parallax-container">
+                <div class="parallax">
+                    <div class="parallax-filter"></div>
+                    <img src="./static/img/parallax-1.jpg" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m7">
+                            <h3>İletişim Formu</h3>
+                            <form autocomplete="off">
+                                <div class="input-field col s12">
+                                    <input type="text" id="name" placeholder="Adınızı giriniz: ">
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="email" id="email" aria-describedby="emailHelp" placeholder="Mail adresiniz: ">
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="tel" id="phone" placeholder="Telefon numaranız: ">
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea name="message" id="message" class="materialize-textarea" placeholder="Mesajınız: "></textarea>
+                                </div>
+                                <button type="submit" class="btn">Gönder</button>
+                            </form>
+                        </div>
+                        <div class="col s12 m5 hide-on-small-only center">
+                            <img src="./static/img/map-of-izmir.png" alt="" class="responsive-img">
+                            <h3>İzmir / Türkiye</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sorucevap">
+            <h2>Soru & Cevap</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m8">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header">Lütfen yardım Asliye Ceza İtiraz etmelimiyim?</div>
+                                <div class="collapsible-body"><span>ben bu işte yeni değilim icra ettiğim görevde yeniyim ancak 1 yıl ertelemeli ceza alan benim bu ceza hakkında itiraz etmelimiyim?
+                                    sonuçta ben bunu bilerek yapmadım yani kasıt yok katipte değilim ancak ünvanım başka ancak görevlendirme ile verildim. yinede 1 yıl ertelemeli ceza aldım yardıma ihtiyacım var itiraz etmelimiyim napayım ?
+                                    
+                                    ASLİYE CEZA MAHKEMESİ
+                                    DURUŞMA TUTANAĞI
+                                    
+                                    Belirli gün ve saatte 6. celse açıldı. Açık yargılamaya devam olundu.
+                                    
+                                    Duruşmaya gelen olmadığı görüldü.
+                                    
+                                    CUMHURİYET SAVCISI ESAS HAKKINDAKİ MÜTALAASINDA: Tüm dosya kapsamından katılanın 16/01/2019 tarihinde tahliye olması gerekirken 17/01/2019 tarihinde bir gün gecikmeyle şekilde tahliye edildiği olay tarihinde infaz kaleminde görevli infaz evrakının...</span>
+                                
+                                    <a href="">Yazının tamamını gör</a>
+                                </div>
+                            </li>
+                            <li class="active">
+                                <div class="collapsible-header">şizofreni hastasının borçlanması ve icralık olması?</div>
+                                <div class="collapsible-body"><span>Öncelikle selamlar.
+                                    Benim şizofreni hastası abim var hastalığını doktora götürdükten sonra öğrendik.Kendisi yaklaşık bir sene önce tüm gsm operatörlerinden birden çok hat almış ve bir bankadan da borç yapmış .Bazı gsm operatörleri faizleri veya avukat ücretlileri diyerekten kabarık bir fatura oluşturmuşlar.Örneğin 2.500 TL ilk borcu 24.000 TL yapmışlar.Akıl hastası birine her gsm operatörü 1 günde 5-6-7 faturalı hat birden vermişler.Ne diye vermişler onuda anlamış değilim.Abim bu borcu yaparken evliydi ve kendi adresinde ikamet ediyordu.Şimdi eşiyle boşandı ve adresini bizim eve taşımış ve bizim eve sürekli icra tebligatları geliyor.Abimin henüz bir raporu yok hastalığını daha yeni öğrendik.Öğrenir öğrenmez vasilik için dava açtık dosya daha yeni şu an için bekliyoruz.Kendisi şu an annesinin evinde bizimle beraber kalıyor ve ilaç tedavisi görüyor.İcra tebligatlarında ikamet ettiği adresi haciz edeceklerini beyan ediyorlar.Kendisinin evimizde hiç bir mal varlığı ve ya menkulü yoktur. Bize ait olan menkulleri haciz edebilirler mi?Abim borçlarını ödeyecek durumumuzda yoktur. Bu icralık davalard...
+                                
+                                    <a href="">Yazının tamamını gör</a></span></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">dosyaya karşı tarafın eski dava dosyasını ekletmek</div>
+                                <div class="collapsible-body"><span>Eşimle çekişmeli boşanma davam var. Ben davalıyım.Eşimin benden önce başkasına bekaretini oyoyol kenarında verdiğini ve bu kişiyle mahkemelik olduğunu evdeki eski evrakların arasından çıkan kesin mahkeme kararından öğrendim.Evi terk ettim.Bu evrağı dava delili olarak sunmak istiyorum.Resmi gayriresmi İlk eşinin ben olmadığımı kanıtlayabilmek  ve nafaka ödememek için bu belgeyi nasıl dosyaya ekletirim. Evliliğimizin başında bana bir defa evlendim ayrıldım dedi. Ben resmi sandım araştırmadım. evlendikden sonra öğrendim bu sefer imam nikahlı oldu dedi. Ama hiç birisi değil tanıştığı kişi ile iş çıkışı otoyol kenarında birlikte olmuş. Mahkeme tutanağında kendiside karşı tarafta kabul ediyorlar. Bu belge benim için çok önemli nasıl elde edrim?
+                                    
+                                    <a href="">Sorunun cevabını gör</a></span></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Satın aldığım ürün tarafıma sorulmadan iptal edildi ne yapmalıyım?</div>
+                                <div class="collapsible-body"><span>Alışveriş yaptığım firmadan gelen mail e göre tedarik edilemediği gerekçesiyle ürünüm bana sorulmadan iptal edilmiş.Tarafıma ödeme yapılacakmış ve kupon vereceklermiş.Müşteri hizmetlerini arayıp para iadesi veya kupon istemediğimi stokta gözüktüğü için aldığım ürünümün tarafıma iletilmesini istediğimi söyledim.3 gün kargo süreleri olduğu belirtiliyordu.29'unda sipariş vermiştim.Eğer ürünümü göndermezlerse ne gibi haklara sahibim?Ne talep edebilirim?
+                                      
+                                    <a href="">Sorunun cevabını gör</a>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">BORCUMLA İLGİLİ</div>
+                                <div class="collapsible-body"><span>Merhaba. Ben bundan 7 yıl önce iş ortağım tarafından dolandırılarak bankalara borçlandım. Kendisi yurt dışına kaçtı. Şu anda kredi kartlarımdan oluşan borçlarım Varlık Yönetim Şirketlerine devredildi. UYAP'dan baktığım zaman dosyalarımın KAPALI ve TAKİPSİZLİK olduğunu görüyorum. Bu ne anlama geliyor? Ayrıca bana ait olmayan bu borçları ödemek istemiyorum, zaten ödeme imkânım da yok. Bu borçlar belli bir zaman sonra ZAMAN AŞIMI olur mu ve borçlardan kurtulabilir miyim? Bilgi verirseniz sevinirim.
+                                      
+                                    <a href="">Sorunun cevabını gör</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m4">
+                        <h5>Soru Sor</h5>
+                        <form autocomplete="off">
+                            <div class="input-field col s12">
+                                <p>Mail adresiniz: </p>
+                                <input type="email" id="email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="input-field col s12">
+                                <p>Sorunuz: </p>
+                                <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+
+                <button class="btn" id="sorucevap-last-child">Tüm Soruları Gör</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="./static/img/law-firm-logo.jpg" class="responsive-img" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsum recusandae atque impedit excepturi!</p>
+                    <a href=""><i class="fab fa-facebook-f"></i> </a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a> 
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="col s12 m3">
+                    <h5>Son Gelişmeler</h5>
+                    <ul class="fas">
+                        <li>İleti yönetim sistemine kayıt süresi</li>
+                        <li>Hindistan’da kamu ihale sistemi ve Türk yatırımcılar için fırsatlar</li>
+                        <li>Anayasa mahkemesi şirket e-postalarının okunmasını hak ihlali olarak kabul etti</li>
+                    </ul>
+                </div>
+                <div class="col s12 m3">
+                    <h5>İletişim Bilgileri</h5>
+                    <p>Adres: Candaş Sk. No: 21 İzmir/Türkiye</p>
+                    <p>+90 0531 893 6592</p>
+                    <p>tufankilinc@outlook.com</p>
+                </div>
+                <div class="col s12 m3">
+                    <h5>Çalışma Alanlarımız</h5>
+                    <span><a href="" class="">Bilişim Hukuku Davaları</a></span>
+                    <span><a href="" class="">Ceza Davaları</a></span>
+                    <span><a href="" class="">İdari Davalar</a></span>
+                    <span><a href="" class="">Marka Patent Hukuku</a></span>
+                    <span><a href="" class="">İcra-İflas Hukukuna İlişkin Davalar</a></span>
+                    <span><a href="" class="">Aile Hukuku Davaları</a></span>
+                    <span><a href="" class="">Mülkiyet Kanununa İlişkin Davalar</a></span>
+                    <span><a href="" class="">Medeni Hukuka İlişkin Davalar</a></span>
+                    <span><a href="" class="">...</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div style="background-color: rgb(1, 2, 17); width: 100%; height: 10vh;">
+        <span>Copyright 2020 | Tüm hakları sakladır.</span>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./static/js/app.js"></script>
+</body>
+</html>
